@@ -1,0 +1,23 @@
+.testById{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.test__answers{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #d9d8d8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.test__answers p{
+    line-height: 22px;
+}
+
+.marker{
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}

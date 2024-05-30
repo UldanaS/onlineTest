@@ -1,0 +1,101 @@
+
+.app__sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 269px;
+	width: 100%;
+	min-height: 100vh;
+    background-color: #8271C1;
+}
+
+.app__content {
+	margin-left: 269px;
+}
+
+
+.navigation__items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	row-gap: 10px;
+}
+
+.navigation{
+    margin-top: 20px;
+}
+
+.navigation__link {
+	display: grid;
+	grid-template-columns: 24px 1fr;
+	column-gap: 10px;
+	padding: 12px 2px;
+	align-items: center;
+	text-decoration: none;
+	color: rgb(230, 226, 226);
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(191, 189, 189);
+    margin: 0 25px;
+}
+
+.navigation__link--active {
+    color: white;
+}
+
+.logo_main{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    padding: 22px 27px;
+}
+
+.logo_main img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo_main p{
+    color: white;
+    font-size: 18px;
+}
+
+.log_out{
+	display: flex;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	cursor: pointer;
+    align-items: center;
+}
+
+.log_out p{
+	color: white;
+	margin-left: 16px;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+.fix-exit{
+    position: absolute;
+    right: 20px;
+    background-color: #B5A380;
+    padding: 6px 6px 3px 6px;
+    border-radius: 16px;
+    cursor: pointer;
+	color: white;
+} 
+
+.menu__icon{
+    width:20px;
+    height: 20px;
+}
+
+.logout__icon{
+    width: 25px;
+    height: 25px;
+    color:white;
+}

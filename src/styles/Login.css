@@ -1,0 +1,164 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#8271C1, #FF6C1A);
+    position: relative;
+}
+
+.rectangle{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    width: 470px;
+}
+
+.rectangle_2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 470px;
+    height: 550px;
+}
+
+.form{
+    padding: 40px 30px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    z-index: 100;
+}
+
+.form__auth{
+    padding: 30px 30px;
+}
+
+.form__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.login__logo *{
+    fill: #8271C1;
+}
+
+.login__logo{
+    width: 70px;
+    height: 70px;
+}
+
+.form__header h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #483828;
+    text-align: center;
+}
+
+.form_box{
+    margin-bottom: 11px;
+}
+
+.form_box label{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.38px;
+    color: black;
+}
+
+.forgot__label{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.38px;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__input{
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.input:focus{
+    border-color: #bdbdbd;
+}
+
+.login__icon{
+    color: #5e5289;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+.input{
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.8px;
+    border: none;
+    width: 100%;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.button{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    background-color: #8271C1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.login__p{
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.login__p p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.38px;
+    color: black;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.auth__p{
+    justify-content: center;
+}
+
+.p__blue{
+    color: #8271C1;
+    line-height: 36px;
+}
+
+.sign_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_in p{
+    text-decoration: underline;
+    line-height: 24px;
+    cursor: pointer;
+}

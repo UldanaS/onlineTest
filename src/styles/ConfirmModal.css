@@ -1,0 +1,125 @@
+.p-dialog{
+    width: 480px;
+}
+
+.p-dialog-header{
+    padding: 15px 25px;
+}
+
+.p-dialog-title{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+
+.p-dialog-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.p-confirm-dialog-message{
+    color: #8F92A1;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    font-weight: 400;
+}
+
+.p-dialog-footer{
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.p-button{
+    padding: 8px 24px;
+    border-radius: 15px;
+}
+
+.p-confirm-dialog-accept{
+    background-color: #FF6C1A;
+    color: white;
+    border: none;
+}
+
+.p-confirm-dialog-accept .p-button-label{
+    color: white;
+}
+
+.p-confirm-dialog-reject{ 
+    background-color:rgba(143, 146, 161, 0.1);
+    color: black;
+}
+
+.dialog-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.input{
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.dialog-button{
+    display: flex;
+    margin-top: 30px;
+}
+
+.confirm-dialog-accept{
+    background-color:#FF6C1A;
+    width: 145px;
+    height: 38px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 4px;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    border: none;
+}
+
+.confirm-dialog-reject{
+    background-color: rgba(143, 146, 161, 0.1);
+    margin-left: 4px;
+    width: 145px;
+    height: 38px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+}
+
+.dialog-container h3{
+    color:#171717;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.dialog-container p{
+    color:#8F92A1;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    margin-top: 8px;
+}

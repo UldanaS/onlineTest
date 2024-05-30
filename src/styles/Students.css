@@ -1,0 +1,23 @@
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+  
+table, th, td{
+    border-bottom: 1px solid #787878;
+}
+
+th{
+    color:black;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 5px;
+    background-color: #F3F1F0;
+}
+  
+td{
+    padding: 10px;
+}
